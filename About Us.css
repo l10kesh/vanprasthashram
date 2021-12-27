@@ -1,0 +1,249 @@
+body
+{
+	margin:0px ;
+	padding-top: 0em;
+    font-family: sans-serif;
+}
+.white_text
+{
+	color: #EFEFF0;
+}
+/* ---------------------------------------------------------Header------------------------------------------------ */
+.header_bg
+{
+	background-color: #EFEFF0;
+}
+.header{
+  	padding-top: 0.8em;
+ 	padding-bottom: 0.8em;
+  	color: #002654;
+  	font-family: Poppins,sans-serif;
+  	font-style: normal;
+  	font-weight: 600;
+}
+.header_contact
+{
+	padding-left: 4em;
+	padding-top: 1em;
+    color: #002654;
+	font-family: Roboto,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+.nav_bar
+{
+	background-color: #002654;
+	display: flex;
+	justify-content: end;
+}
+.nav_bar a
+{
+	color: #EFEFF0;
+	padding: 1em;
+	display: inline-block;
+	font-family: Poppins,sans-serif;
+	font-style: normal;
+	font-size: 1.3em;
+	padding-right: 3em;
+}
+.nav_right
+{
+	padding-right: 9em;
+}
+/* ---------------------------------------------About Us------------------------------------------------- */
+.heading
+{
+	height: 25em;
+	background-color: #002465;
+	opacity: 65%;
+	background-image: url("Media/Screenshot (192).png");
+	text-align: center;
+	/* background-repeat: no-repeat; */
+}
+.heading h1
+{
+	padding-top: 3em;
+	font-size: 3em;
+	font-style: normal;
+	color: #002465;
+	font-weight: bold;
+}
+.our_story
+{
+    background-color: #EFEFF0;
+    color: #002465;
+    width: 51em;
+    margin-left: 15em;
+    padding-bottom: 2em;
+    height: 24em;
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+.our_story p
+{
+	margin: 1em;
+}
+.our_story h3, .our_vision h3
+{
+	padding-top: 1em;
+	text-align: center;
+	font-style: normal;
+}
+.our_vision
+{
+    background-color: #EFEFF0;
+    color: #002465;
+    padding-top: 4.5em;
+    padding-bottom: 2.5em;
+}
+.vm
+{
+    background-color: #ffffff;
+    /* padding: 2em; */
+    margin: 2em;
+    width: 37.5em;
+    height: 18em;
+    /* margin-top: 2em; */
+}
+.who_we_are
+{
+	padding-top: 3em;
+	padding-bottom: 3em;
+	color: #002465;
+}
+.who_we_are h2
+{
+	color: #002465;
+	font-family: sans-serif;
+}
+.what_we_do
+{
+	padding-top: 3em;
+	background-color: #EFEFF0;
+	padding-bottom: 3em;
+	color: #002465;
+}
+.what_we_do h2
+{
+	color: #002465;
+	font-family: sans-serif;
+}
+.awards
+{
+	background-color: #EFEFF0;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.awards h2
+{
+	color: #002465;
+	font-family: sans-serif;
+	padding-bottom: 0.5em;
+}
+.awards_card
+{
+	width: 22em;
+	/* height: 11em; */
+	color: #002465;
+	
+}
+.awards_card img
+{
+	height: 10em;
+	width: 19em;
+	margin: 20px 20px 0px 20px;
+}
+.awards_card h5
+{
+	text-align: center;
+	color: #002465;
+}
+/* --------------------------------------------Footer------------------------------------------------------ */
+.footer_bg
+{
+	background-color: #002654;
+	color: #ffffff;
+	padding-left: 3em;
+	padding-top: 2em;
+	font-family: Roboto,sans-serif;
+	font-style: normal;
+}
+.footer_bg p, .rights_bg p
+{
+	margin-left: 1.5em;
+}
+.footer_bg i, .rights_bg i
+{
+	margin-right: 0.5em;
+	color: #cccccc;
+}
+.footer_quick
+{
+	color: #EFEFF0;
+	text-align: center;
+}
+.footer_quick a
+{
+	color: #EFEFF0;
+	font-family: Poppins,sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5em;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 6em;
+}
+.footer_quick i
+{
+    margin: 0.5em 0.5em 0 0;
+}
+.rights_bg
+{
+    background-color: #002654;
+	opacity: 87%;
+	color: #ffffff;
+	font-family: Roboto,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+    padding-top: 1em;
+	padding-left: 6.5em;
+}
+.footer_input
+{
+	background-color: #EFEFF0;
+	width: 20em;
+	height: 2em;
+	margin: 0.25em 0 0.25em 0;
+}
+#message_form
+{
+	background-color: #EFEFF0;
+	width: 20em;
+	height: 4em;
+	margin: 0.25em 0 0.25em 0;
+}
+::placeholder
+{
+	position: absolute;
+	font-family: Poppins,sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+	color: #002465;
+}
+.footer_form
+{
+	margin-left: 5em;
+}
+.footer_form button
+{
+	width: 12em;
+	background-color: #EFEFF0;
+	color: #002465;
+	font-family: Poppins,sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	margin:0.25em 0 0.5em 0;
+}

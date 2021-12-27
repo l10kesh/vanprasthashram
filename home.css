@@ -1,0 +1,301 @@
+body
+{
+	margin:0px ;
+	padding-top: 0em;
+  background-color:#e6e6ec; 
+  color: #002465;
+}
+.white_text
+{
+	color: #EFEFF0;
+}
+/* ---------------------------------------------------------Header------------------------------------------------ */
+.header_bg
+{
+	background-color: #EFEFF0;
+}
+.header{
+  	padding-top: 0.8em;
+ 	padding-bottom: 0.8em;
+  	color: #002654;
+  	font-family: Poppins;
+  	font-style: normal;
+  	font-weight: 600;
+}
+.header_contact
+{
+	padding-left: 5em;
+	padding-top: 1em;
+    color: #002654;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+.nav_bar
+{
+	background-color: #002654;
+	display: flex;
+	justify-content: end;
+}
+.nav_bar a
+{
+	color: #EFEFF0;
+	padding: 1em;
+	display: inline-block;
+	font-family: Poppins;
+	font-style: normal;
+	font-size: 1.3em;
+	padding-right: 3em;
+}
+.nav_right
+{
+	padding-right: 9em;
+}
+/* ---------------------------------------------Slide show------------------------------------------------- */
+.slide_height
+{
+	height: 33em;
+}
+/* --------------------------------------------Footer------------------------------------------------------ */
+.footer_bg
+{
+	background-color: #002654;
+	color: #ffffff;
+	padding-left: 3em;
+	padding-top: 2em;
+	font-family: Roboto;
+	font-style: normal;
+}
+.footer_bg p, .rights_bg p
+{
+	margin-left: 1.5em;
+}
+.footer_bg i, .rights_bg i
+{
+	margin-right: 0.5em;
+	color: #cccccc;
+}
+.footer_quick
+{
+	color: #EFEFF0;
+	text-align: center;
+}
+.footer_quick a
+{
+	color: #EFEFF0;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5em;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 6em;
+	
+}
+.rights_bg
+{
+    background-color: #002654;
+	opacity: 87%;
+	color: #ffffff;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+    padding-top: 1em;
+	padding-left: 6.5em;
+}
+.footer_input
+{
+	background-color: #EFEFF0;
+	width: 20em;
+	height: 2em;
+	margin: 0.25em 0 0.25em 0;
+}
+#message_form
+{
+	background-color: #EFEFF0;
+	width: 20em;
+	height: 4em;
+	margin: 0.25em 0 0.25em 0;
+}
+::placeholder
+{
+	position: absolute;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #002465;
+}
+.footer_form
+{
+	margin-left: 5em;
+}
+.footer_form button
+{
+	width: 8em;
+	background-color: #EFEFF0;
+	color: #002465;
+	font-family: Poppins;
+	font-size: 1.5em;
+	font-style: normal;
+	margin:0.5em 0 0.5em 0;
+
+}
+
+/* -----------------------------------------home Page css ------------------------------------------------------*/
+.about
+{
+  background-color: #EFEFF0;
+  padding: 2em 0 2em 0;
+  color: #002465;
+}
+.services
+{
+  padding: 2em 0 2em 0;
+}
+.services h2
+{
+  color: #002465;
+}
+.services_card
+{
+  width: 22em;
+	height: 27em;
+	color: #002465;
+}
+.services_card img
+{
+  
+	height: 10em;
+	width: 19em;
+	margin: 20px 20px 0px 20px;
+}
+.reg
+{
+  background-color: #EFEFF0;
+  padding: 2em 0 2em 0;
+  color: #002465;
+} 
+.reg input
+{
+  width: 20em;
+  margin: 0 2em 1em 0;
+} 
+.reg button
+{
+  /* padding-top: 0.5em; */
+  background-color: #002465;
+  color: #ffffff;
+  width: 10em;
+  font-size: 1.2em;
+	font-style: normal;
+	margin:0.5em 0 0.5em 0;
+}
+.donors
+{
+  padding: 2em 0 2em 0;
+  color: #002465;
+}
+.donors h2
+{
+  padding-bottom: 1em;
+}
+.float-call{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:150px;
+	right:40px;
+	background-color:#002465;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 2px 2px 3px #002465;
+  z-index:100;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:80px;
+	right:40px;
+	background-color:#002465;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.my-float-call{
+	margin-top:16px;
+
+}
+
+.my-float{
+	margin-top:16px;
+}
+.testimonial h2
+{
+	color: #002465;
+	padding-top: 1em;
+	text-align: center;
+}
+.testimonial div
+{
+  margin: 2em auto;
+  width: 33%;
+  height: 12em;
+  overflow: hidden;
+  border: 10px solid;
+  border-top-color: #002465;
+  border-left-color: #002465;
+  border-bottom-color: #002465;
+  border-right-color: #002465;
+  position: relative;
+  color: #002465;
+  background-color: #EFEFF0;
+}
+.testimonial p
+{
+	position: absolute;
+	animation: round 30s infinite;
+	opacity: 0;
+	margin: 1em;
+	
+}
+@keyframes round {
+	25% {
+	  opacity: 1;
+	}
+	40% {
+	  opacity: 0;
+	}
+  }
+  -webkit-@keyframes round {
+	25% {
+	  opacity: 1;
+	  -webkit-opacity: 1;
+	}
+	40% {
+	  opacity: 0;
+	  -webkit-opacity: 0;
+	}
+  }
+  p:nth-child(1) {
+	animation-delay: 24s;
+  }
+   
+  p:nth-child(2) {
+	animation-delay: 15s;
+  }
+   
+  p:nth-child(3) {
+	animation-delay: 8s;
+  }
+
+
+

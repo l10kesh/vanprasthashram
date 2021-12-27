@@ -1,0 +1,248 @@
+body
+{
+	margin:0px ;
+	padding-top: 0em;
+	font-family: sans-serif;
+}
+.white_text
+{
+	color: #EFEFF0;
+}
+/* ---------------------------------------------------------Header------------------------------------------------ */
+.header_bg
+{
+	background-color: #EFEFF0;
+}
+.header{
+  	padding-top: 0.8em;
+ 	padding-bottom: 0.8em;
+  	color: #002654;
+  	font-style: normal;
+  	font-weight: 600;
+}
+.header_contact
+{
+	padding-left: 4em;
+	padding-top: 1em;
+    color: #002654;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+.nav_bar
+{
+	background-color: #002654;
+	display: flex;
+	justify-content: end;
+}
+.nav_bar a
+{
+	color: #EFEFF0;
+	padding: 1em;
+	display: inline-block;
+	font-style: normal;
+	font-size: 1.3em;
+	padding-right: 3em;
+}
+.nav_right
+{
+	padding-right: 9em;
+}
+/* --------------------------------------------Footer------------------------------------------------------ */
+.footer_bg
+{
+	background-color: #002654;
+	color: #ffffff;
+	padding-left: 3em;
+	padding-top: 2em;
+	font-style: normal;
+}
+.footer_bg p, .rights_bg p
+{
+	margin-left: 1.5em;
+}
+.footer_bg i, .rights_bg i
+{
+	margin-right: 0.5em;
+	color: #cccccc;
+}
+.footer_quick
+{
+	color: #EFEFF0;
+	text-align: center;
+}
+.footer_quick a
+{
+	color: #EFEFF0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5em;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 6em;
+}
+.footer_quick i
+{
+    margin: 0.5em 0.5em 0 0;
+}
+.rights_bg
+{
+    background-color: #002654;
+	opacity: 87%;
+	color: #ffffff;
+	font-style: normal;
+	font-weight: normal;
+    padding-top: 1em;
+	padding-left: 6.5em;
+}
+.footer_input
+{
+	background-color: #EFEFF0;
+	width: 20em;
+	height: 2em;
+	margin: 0.25em 0 0.25em 0;
+}
+#message_form
+{
+	background-color: #EFEFF0;
+	width: 20em;
+	height: 4em;
+	margin: 0.25em 0 0.25em 0;
+}
+::placeholder
+{
+	position: absolute;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+	color: #002465;
+}
+.footer_form
+{
+	margin-left: 5em;
+}
+.footer_form button
+{
+	width: 12em;
+	background-color: #EFEFF0;
+	color: #002465;
+	font-size: 1em;
+	font-style: normal;
+	margin:0.25em 0 0.5em 0;
+}
+/* ----------------------------------------------------Donation---------------------------------------- */
+.heading
+{
+	height: 25em;
+	background-color: #002465;
+	opacity: 65%;
+	background-image: url("Media/Screenshot (192).png");
+	text-align: center;
+	/* background-repeat: no-repeat; */
+}
+.heading h1
+{
+	padding-top: 3em;
+	font-size: 3em;
+	font-style: normal;
+	color: #002465;
+	font-weight: bold;
+}
+.why_donate
+{
+	padding-top: 3em;
+	padding-bottom: 3em;
+	color: #002465;
+}
+.why_donate h2
+{
+	color: #002465;
+	font-family: sans-serif;
+	/* padding-bottom: 0.5em; */
+}
+.donate_now
+{
+	padding-top: 3em;
+	background-color: #EFEFF0;
+	padding-bottom: 3em;
+}
+.donate_now h2
+{
+	color: #002465;
+	font-family: sans-serif;
+	padding-bottom: 0.5em;
+}
+.donate_button
+{
+	width: 7em;
+	height: 5em;
+	margin-right: 5em;
+	background-color: #002465;
+	margin-left: 1.2em;
+}
+.donate_button a
+{
+	color: #ffffff;
+	text-decoration: none;
+	margin-top: 2px;
+}
+.donate_schedule
+{
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+.schedule_card
+{
+	width: 34em;
+	height: 17em;
+	background-color: #EFEFF0;
+	color: #002465;
+	margin-left: 3em;
+}
+.schedule_card h4
+{
+	text-align: center;
+}
+.assistance
+{
+	background-color: #EFEFF0;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.assistance h2
+{
+	color: #002465;
+	font-family: sans-serif;
+	padding-bottom: 0.5em;
+}
+.assistance_card
+{
+	width: 22em;
+	/* height: 33em; */
+	color: #002465;
+	
+}
+.assistance_card img
+{
+	height: 10em;
+	width: 19em;
+	margin: 20px 20px 0px 20px;
+}
+.assistance_card h5
+{
+	text-align: center;
+	color: #002465;
+}
+.donation_used
+{
+	padding-top: 3em;
+	background-color: #EFEFF0;
+	padding-bottom: 3em;
+	color: #002465;
+}
+.donation_used h2
+{
+	color: #002465;
+	font-family: sans-serif;
+}
